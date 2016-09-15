@@ -1,0 +1,83 @@
+/*  style.css */
+/*  MEOWSPACE */
+
+
+/* Semantic Tags */
+header {
+  background-color: red;
+  position: fixed;
+  width: 100%;
+  height: 50px;
+  top: 0;
+}
+
+main {
+  background-color: green;
+  margin-top: 50px;
+}
+
+article {
+  background-color: cyan;
+  padding: 10px;
+}
+
+nav {
+  background-color: mediumblue;
+  display: inline-block;
+  width: 25%;
+  height: 50px;
+  position: absolute;
+  right: 0;
+  overflow: hidden;
+}
+
+footer {
+  background-color: red;
+}
+
+/* Class Tags */
+.newsfeed {
+  background-color: blue;
+  display: inline-block;
+  width: 60%;
+}
+
+.post-content {
+  background-color: purple;
+}
+
+.post-content img {
+  width: 30%;
+  vertical-align: middle;
+}
+
+
+.post-content img:first-of-type {
+  width: 100%;
+}
+
+.header-footer-content {
+  display: inline-block;
+  width: 60%
+}
+
+
+/* ID Tags */
+#top-cats {
+  background-color: gold;
+  display: inline-block;
+  width: 20%;
+  vertical-align: top;
+}
+
+#top-cats img {
+  width: 100%;
+}
+
+#top-cats section {
+  background-color: orange;
+}
+
+#top-cats p {
+  background-color: red;
+}
