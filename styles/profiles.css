@@ -36,10 +36,17 @@ section img {
 
 main {
   background-color: green;
+  text-align: center;
 }
 
 article {
   background-color: cyan;
+  display: inline-block;
+  width: 25%;
+  padding: 2%;
+  margin: 1%;
+  border-radius: 5%;
+  text-align: left;
 }
 
 nav {
@@ -109,6 +116,10 @@ section p {
   line-height: 200%;
 }
 
+a {
+  text-decoration: none;
+}
+
 /* ---- Horizontal navigation bar ---- */
 ul {
     list-style-type: none;
@@ -160,7 +171,7 @@ section h1, h2, h3 {
   width: 25%;
 }
 
-.post-content {
+/*.post-content {
   background-color: purple;
   display: inline-block;
   position: relative;
@@ -179,4 +190,4 @@ section h1, h2, h3 {
 .post-content img:first-of-type {
   width: 96%;
   padding-top: 2%
-}
+}*/
